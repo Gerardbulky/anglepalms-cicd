@@ -1,0 +1,44 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/respite.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Respite Care Services...</h4>
+                        <p>You are not responsible for fixing everything. Let’s help take some of that stress off your plate.</p>
+
+                        <p>Our Respite care Service provides short-term relief for primary caregivers. It can be arranged for just an afternoon or for several days or weeks. We provide these Respite Care Services:</p>
+                        <p>Bathe, dress, eat or drink, take medication, exercise, enjoy the outdoors get in and out of bed.</p>
+                        <p>Who Needs Respite Care?</p>
+                        <p>Someone who has an illness or disability may need care around the clock. Caregivers sometimes need time to rest and relax, go on vacation, shop, go to appointments, work, or exercise.</p>    
+                        
+                        <p>You might use respite care if you’re in charge of someone who has a condition like:
+
+                            <ul>
+                                <li>Cancer</li>
+                                <li>A brain injury</li>
+                                <li>Alzheimer’s disease or dementia</li>
+                                <li>A stroke</li>
+                                <li>Blindness</li>
+                            </ul>                           
+                        </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}
+
+   

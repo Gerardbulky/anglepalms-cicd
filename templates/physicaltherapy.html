@@ -1,0 +1,41 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/physicaltherapy.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Physical Therapy Services...</h4>
+                        <p>Our Physical Therapists integrate the elements of patient/client management – examination, evaluation, diagnosis, prognosis, and intervention – in a manner designed to optimize outcomes.</p>
+                        <p>Our Physical Therapist focus care on recovering mobility and movement. By gently easing the patient’s body back to pre-injury function.</p>
+                        <p>They put your loved ones on track the right track with the anticipated recovery timeline for your injuries. Applying the right range of motion to strengthening your body and avoid four injuries from recurring.</p>
+                        <p>Our Physical therapists also provide a take home instruction – when it comes to your home exercise program – essential for achieving your rehabilitation goals.</p>
+                        <p>Conditions that may be a good fit for home-care physical therapy may include: 
+
+                            <ul>
+                                <li>Post-surgical conditions like a total hip or total knee replacement</li>
+                                <li>Stroke recovery and rehabilitation once discharged from a facility</li>
+                                <li>Parkinson’s disease symptom management</li>
+                                <li>Multiple sclerosis</li>
+                                <li>Amyotrophic lateral sclerosis (ALS)</li>
+                                <li>After a cardiac event like a heart attack</li>
+                                <li>After trauma such as fracture</li>
+                            </ul>                           
+                        </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}

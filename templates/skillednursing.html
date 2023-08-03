@@ -1,0 +1,53 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/students.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Skilled Nursing Services...</h4>
+                        <p>We provide Skilled nursing care for your loved ones who need care or treatment that can only be performed by our licensed nurses.</p>
+                        <p>Our Nurses follow appropriately design and follow the proper Nursing Care Plan Components which include: 
+
+                            <ul>
+                                <li><b>Assessment:</b> Our Nurses access our patients’ feelings, perceptions, and concerns to identify the fight kind of care that is required for that patient.</li>
+                                <li><b>Planning:</b> After our Nurses Assessments, our Nurses form the right plan of care for your loved ones.</li>
+                                <li><b>Implementation:</b> Our Skilled Nurses perform the right nursing interventions outlined in the care plan. </li>
+                                <li><b>Evaluation:</b> Our patients continue to evaluate, coordinate, and monitor your loved one’s progression during the entire care period.</li>
+                                <li><b>Advocating and Education:</b>  Our Care givers provide after care education and advocating feedback on services to ensure satisfaction.</li>
+                            </ul>                           
+                        </p>
+
+                        <p><b>Our Highly experienced Nurses provide advanced skills in a areas including:</b>
+
+                            <ul>
+                                <li>Assessment, skilled observation</li>
+                                <li>Medication administration</li>
+                                <li>Tube feeding</li>
+                                <li>Wound care</li>
+                                <li>IV monitoring and therapies</li>
+                                <li>Mental Health</li>
+                                <li>Dressing changes</li>
+                                <li>Injection administration</li>
+                                <li>Catheter insertion and monitoring</li>
+                                <li>Tracheostomy care</li>
+                                <li>Hygiene/personal care</li>
+                                <li>Patient and caregiver education</li>
+                            </ul>                           
+                        </p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}

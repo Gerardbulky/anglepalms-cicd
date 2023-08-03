@@ -1,0 +1,42 @@
+
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/instructor.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Personal Care Services...</h4>
+                        <p>We Come To You! We provide care to your Loved ones who need help with daily care at the comfort of their Homes. Your Loved ones receive care at their own apartments or rooms and share common areas.</p>
+                        <p>Some of our offerings include:: 
+
+                            <ul>
+                                <li>Feeding</li>
+                                <li>Assistance with personal care - Showering, dressing, and grooming</li>
+                                <li>Help with meal preparation and diet monitoring</li>
+                                <li>Respite for family members</li>
+                                <li>Accompanying to appointments, and outings</li>
+                                <li>Helping with medications, housekeeping, and laundry</li>
+                                <li>24-hour supervision and Companionship</li>
+                                <li>On-site staff</li>
+                                <li>social and recreational activities</li>
+                            </ul>                           
+                        </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}

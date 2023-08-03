@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+    {% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/homecare.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h5>ABOUT US...</h5>
+                        <p>ANGEL-PALMS Home Health Care is passionate about in-home care services in Orlando, Oviedo, Ormond Beach, Seminole County and surrounding areas.</p>
+                       
+                        <p>At ANGEL-PALMS Home Health Care, we are dedicated to providing compassionate and personalized care in the comfort of your own home. We understand that your health and well-being are of utmost importance, and we strive to support you in maintaining your independence and quality of life.</p>
+                        <p>Our team of highly skilled healthcare professionals is committed to delivering exceptional care tailored to your unique needs. Whether you require assistance with daily activities, medication management, rehabilitation services, or specialized medical care, we are here to ensure your safety, comfort, and overall wellness.</p>
+                        <p>We believe that home is where healing happens best. By bringing our services directly to your doorstep, we aim to create a warm and familiar environment that promotes healing, recovery, and a sense of belonging. We value the importance of building strong relationships with our clients and their families, fostering trust, open communication, and understanding.</p>
+                        <p>At ANGEL-PALMS Home Health Care, we prioritize your dignity and respect your individuality. We work collaboratively with you and your healthcare team to develop a personalized care plan that meets your specific goals and preferences. We believe in empowering you to actively participate in your care, making informed decisions about your health and well-being.</p>
+                        <p>With a commitment to excellence, professionalism, and continuous improvement, we strive to exceed your expectations at every step. Our reliable and compassionate caregivers are carefully selected, extensively trained, and thoroughly screened to ensure the highest standards of care and safety.</p>
+                        <p>Your health and happiness are at the core of our mission. We are honored to be a trusted partner in your healthcare journey, providing reliable, compassionate, and comprehensive home health care services. Together, we can create a nurturing and supportive environment that promotes your well-being and allows you to thrive in the comfort of your own home.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+    {% endblock %}
+
+  

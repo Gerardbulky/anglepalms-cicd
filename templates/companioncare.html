@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/companion.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Companion Care Services...</h4>
+                        <p>Let’s assist your loved ones to improve their quality of life.</p>
+
+                        <p>Here are some of the primary companionship home care services we offer:
+
+                            <ul>
+                                <li>Medication reminders</li>
+                                <li>Assistance with daily routines such as getting out of bed and getting in and out of the car</li>
+                                <li>Performing light housekeeping duties</li>
+                                <li>Playing fun games together to stimulate an active and happy state of mind</li>
+                                <li>Telling fun stories to elude laughter and happiness</li>
+                                <li>Preparing and cooking meals</li>
+                                <li>Transportation assistance to the grocery store, doctor's appointments, and errands</li>
+                                <li>Provide emotional support</li>
+                                <li>Provide companionship for the senior</li>
+
+                            </ul>                           
+                        </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/mission.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Our Mission...</h4>
+                        <p>At Angel-Palms Home Health Care, we are committed to making a difference in the lives of our patients, one visit at a time.</p>
+                       
+                        <p>Our mission is to provide exceptional and compassionate healthcare services to individuals in the comfort and familiarity of their own homes. We are dedicated to enhancing the overall well-being and quality of life for our patients, empowering them to live with independence, dignity, and utmost care.</p>
+                        <p>We strive to be the premier provider of home healthcare services by delivering personalized and comprehensive care that is tailored to meet the unique needs of each individual we serve. Our team of highly skilled and compassionate professionals is committed to building trusted relationships with our patients and their families, fostering a supportive and healing environment.</p>
+                        <p>Through continuous innovation and a commitment to excellence, we aim to exceed expectations and set new standards in home healthcare. We embrace a holistic approach, addressing not only physical health but also emotional, social, and spiritual well-being. By collaborating with our patients, their families, and the broader healthcare community, we actively contribute to creating healthier and happier lives.</p>
+                        <p>With integrity, empathy, and unwavering dedication, we make a positive difference in the lives of our patients, enabling them to thrive and enjoy the highest possible quality of life in the place they call home.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}
+
+    

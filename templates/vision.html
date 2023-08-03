@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/vision.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Our Vision...</h4>
+                        <p>At Angel-Palms Home Health Care, our vision is to be the leading provider of exceptional and innovative home healthcare services, transforming the way care is delivered and experienced. We envision a future where individuals can receive the highest quality healthcare in the comfort of their own homes, promoting healing, independence, and a sense of belonging.</p>
+                        
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}

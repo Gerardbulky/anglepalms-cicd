@@ -1,0 +1,40 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<header class="head bg-black" ></header>
+{% endblock %}
+
+{% block instructor %}
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="{{ url_for('static', filename='images/dementia.jpg') }}" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>Dementia Care Services...</h4>
+                        <p>We care for a whole person, not a patient.</p>
+
+                        <p>When a loved one is diagnosed with dementia, their well-being will depend on family and friends for support, care and comfort which may overwhelm you later in the future.</p>
+                        <p>Our Highly qualified nurses are equipped with the knowledge and patience to care you’re your loved ones.</p>
+                       
+                        <p>We provide Day-to-day support care which includes, but not limited to:
+
+                            <ul>
+                                <li>supervision</li>
+                                <li>Mobility assistance</li>
+                                <li>Transportation assistance</li>
+                                <li>Medication reminders and monitoring</li>
+                                <li>Meals Preparation</li>
+                            </ul>                           
+                        </p>
+
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+{% endblock %}
