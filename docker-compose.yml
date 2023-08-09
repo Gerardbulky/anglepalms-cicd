@@ -1,6 +1,6 @@
 version: '3.3'
 services:
   web:
-    image: bossmanjerry/anglepalms_nodeapp:latest
+    image: bossmanjerry/anglepalms_image:latest
     ports:
       - "8000:8000" 
