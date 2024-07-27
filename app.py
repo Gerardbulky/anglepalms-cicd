@@ -10,13 +10,13 @@ if os.path.exists("env.py"):
 
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
-app.config["JSONIFY_PRETTYPRINT_REGULAR"] = True
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    form = ContactForm()
+    form = ContactForm(request.form)
+    if request.method == 'POST' and form.validate():
+        flash('Thanks for registering')
     return render_template("index.html", form=form)
 
 
